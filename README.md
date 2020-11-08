@@ -1,1 +1,1 @@
-# js-assighnments. Jonathan's JS homeworks :)
+# Jonathan's JS homeworks :)
