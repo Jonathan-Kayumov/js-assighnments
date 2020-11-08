@@ -1,0 +1,5 @@
+pull request
+git checkout -b (enter name here)
+git add .
+git commit -m ("message")
+git push
