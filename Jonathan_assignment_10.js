@@ -33,5 +33,4 @@ function x() {
     }
     return true
 }
-
 console.log(x());
