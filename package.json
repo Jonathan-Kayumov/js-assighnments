@@ -1,0 +1,24 @@
+{
+  "name": "jonathan-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonathan-Kayumov/js-assighnments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonathan-Kayumov/js-assighnments/issues"
+  },
+  "homepage": "https://github.com/Jonathan-Kayumov/js-assighnments#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
