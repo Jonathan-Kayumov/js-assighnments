@@ -1,5 +1,5 @@
 function foobar(num) {
-    if (foobar(num) < 10) {
+    if (num < 10) {
         return "foo"
     }
     else {
@@ -8,3 +8,4 @@ function foobar(num) {
 };
 
 foobar(4);
+foobar(15);
