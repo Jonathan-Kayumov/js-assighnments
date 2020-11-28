@@ -1,4 +1,4 @@
-function divider(num1, num2) {
+const divider = (num1, num2) => {
     return num1 / num2
 }
 module.exports = divider
