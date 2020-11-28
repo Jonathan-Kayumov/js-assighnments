@@ -1,12 +1,12 @@
-function fReturn() {
+const fReturn = () => {
     return "Jonathan";
 }
-var returnFunctionResult = fReturn();
+let returnFunctionResult = fReturn();
 console.log(returnFunctionResult);
 
-function giveAge() {
+const giveAge = () => {
     return 18;
 }
-var myAge = giveAge();
+let myAge = giveAge();
 console.log(myAge);
 console.log(giveAge());

@@ -6,7 +6,7 @@ for (i = 1; i < 21; i++) {
 }
 
 
-var i = 0;
+let i = 0;
 while (i < 21) {
     console.log(i);
     if (i == 10) {
@@ -16,8 +16,8 @@ while (i < 21) {
 }
 
 
-var boo = true;
-var i = 0;
+let boo = true;
+let i = 0;
 while (boo == true) {
     console.log(i);
     if (i == 10) {
@@ -26,7 +26,7 @@ while (boo == true) {
     i++;
 }
 
-function x() {
+const x = () => {
     for (var i = 0; i < 21; i++) {
         console.log(i);
         if (i == 10) return false;

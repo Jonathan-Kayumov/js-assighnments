@@ -1,4 +1,4 @@
-function truefalse(stupidDumbBox) {
+const truefalse = (stupidDumbBox) => {
     if (stupidDumbBox == null) {
         console.log("jonathan did not provide an arument");
         return;
