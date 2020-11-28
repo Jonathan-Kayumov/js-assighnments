@@ -1,4 +1,4 @@
-function lang(js) {
+const lang = (js) => {
     if (js == "javascript") {
         console.log(true)
     } else {

@@ -1,9 +1,9 @@
-var add = require("./adder")
-var sub = require("./subtractor")
-var multiplier = require("./multiplier")
-var divider = require("./divider")
+let add = require("./adder")
+let sub = require("./subtractor")
+let multiplier = require("./multiplier")
+let divider = require("./divider")
 
-var calculator = {
+let calculator = {
     add: add,
     sub: sub,
     multiplier: multiplier,

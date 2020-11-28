@@ -1,4 +1,4 @@
-function foobar(num) {
+const foobar = (num) => {
     if (num < 10) {
         return "foo"
     }

@@ -1,9 +1,9 @@
-function aCallBack() {
+const aCallBack = () => {
     console.log("hi, Im a callback!");
 }
 
 
-function aFunction(callback) {
+const aFunction = (callback) => {
     console.log("hello");
     callback();
     console.log("goodbye");
