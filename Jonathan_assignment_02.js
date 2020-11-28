@@ -1,6 +1,6 @@
-var electronics = ["laptop", "smartphone", "camera"];
+let electronics = ["laptop", "smartphone", "camera"];
 
-function printArray(arrayToPrint) {
+const printArray = (arrayToPrint) => {
 
     for (i = 0; i < arrayToPrint.length; i++) {
 
