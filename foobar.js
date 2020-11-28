@@ -7,7 +7,4 @@ function foobar(num) {
     }
 };
 
-foobar(4);
-foobar(15);
-
 module.exports = foobar;
