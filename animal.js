@@ -6,8 +6,6 @@ class animal {
     }
 }
 
-let myAnimal = new animal("lion", "roar");
-
 function animalMakesSound() {
     console.log("the ", animal.name, "goes ", animal.sound);
 }
