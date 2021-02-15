@@ -4,10 +4,9 @@ class animal {
         this.name = name;
         this.sound = sound;
     }
+    animalMakesSound = () => {
+        console.log("the " + this.name + " goes " + this.sound);
+    }
 }
 
-function animalMakesSound() {
-    console.log("the ", animal.name, "goes ", animal.sound);
-}
-
-animalMakesSound();
+module.exports = animal;

@@ -1,10 +1,13 @@
+let animal = require('./animal');
+
 class dog extends animal {
     constructor(type, size) {
-        this.type = type
-        this.size = size
+        super(
+            type, size
+        )
     }
 }
 
-let myDog = new dog("poodle", "small");
+let myDog = new dog("poodle", "bark");
 
-animalMakesSound();
+myDog.animalMakesSound();
