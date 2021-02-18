@@ -1,8 +1,11 @@
-
-class animal {
-    constructor(name, sound) {
+class Animal {
+    animalType = "gneneric animal";
+    constructor(name) {
         this.name = name;
-        this.sound = sound;
+    }
+    animalMakesSound = () => {
+        console.log("animal type = " + this.animalType);
+        console.log("the " + this.name + " makes generic sound");
     }
     animalMakesSound = () => {
         console.log("the " + this.name + " goes " + this.sound);
