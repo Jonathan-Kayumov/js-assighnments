@@ -12,4 +12,4 @@ class genericGameCharacter {
 
 let myCharacter = new character("Hanaqui", "crusader", "15", "105");
 
-myCharactere.genericGameCharacter();
+myCharacter.genericGameCharacter();
