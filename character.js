@@ -1,6 +1,16 @@
-var hp = 10;
+var hp = 20;
+var attack = 5;
 
-Function damage(){
-    var damage
-    hp - damage = hp
+function damage() {
+    hp = hp - attack;
+
+    if (hp <= 0) {
+        console.log("you died");
+    }
+    else {
+        console.log("you have " + hp + " health");
+    }
 }
+
+
+damage();
