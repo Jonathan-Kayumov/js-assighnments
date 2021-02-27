@@ -1,16 +1,22 @@
-var hp = 20;
-var attack = 5;
-
-function damage() {
-    hp = hp - attack;
-
-    if (hp <= 0) {
-        console.log("you died");
+class Character {
+    hp = 0;
+    constructor(hp) {
+        this.hp = hp;
     }
-    else {
-        console.log("you have " + hp + " health");
+    damage = (attack) => {
+        this.hp = this.hp - attack;
+    }
+    currentHealth = () => {
+        console.log("you have " + this.hp + " health");
+        if (this.hp <= 0) {
+            console.log("You died");
+        }
     }
 }
 
+let character1 = new Character(100);
+character1.currentHealth();
 
-damage();
+character1.damage(100);
+
+character1.currentHealth();
